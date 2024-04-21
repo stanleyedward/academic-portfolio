@@ -103,7 +103,7 @@ sections:
           - icon: "mdi:github"
             text: "Github Link"
             link: "https://github.com/stanleyedward/panorama-image-stitching"
-        image: "hamiltonian.png"
+        image: "pano.gif"
         tags: ["Computer Vision"]
       - title: "Vision Transformers"
         description:
