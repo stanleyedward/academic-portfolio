@@ -2,13 +2,13 @@
 	"info": {
 		"about": {
 			"description": [
-				"I am an undergraduate student at SRM Intitute of Science & Technology, pursuing a bachelor’s degree in technology with specialization in Software Engineering. Currently, my research revolves around quantum key distribution protocols and error correction techniques. I am actively involved in investigating Quantum Key Distribution (QKD) under the mentorship of Dr. Gayathri M. Additionally, I contribute to the Machine Learning division at [NextTech Lab](https://nexttechlab.club), leveraging my expertise to explore the intersection of quantum computing and machine learning. At the [Indian Institute of Science](https://iisc.ac.in/)'s [DREAM Lab](https://dream-lab.in/) I contribute to XFaaS, a system enabling deployment of FaaS workflows across multiple cloud platforms, promoting portability and cost-efficiency"
+				"Student with unsatiated hunger to advance in the field of deep learning, looking to specialize in **computer vision and graphics**. Trying to get familiar with 3D reconstuction and view synthesis. Always excited to help people and listen to people with similar interests. Finds zen staring at decrementing loss counters while listening to korn."
 			],
 			"links": [
 				{
 					"icon": "mdi:document",
 					"text": "Resume",
-					"link": "https://www.vaishnav.one/resume"
+					"link": "https://drive.google.com/file/d/1j1e4yJxrEwrViEb0GoY2udewZ9zSG1sC/view"
 				},
 				{
 					"icon": "system-uicons:write",
@@ -17,19 +17,19 @@
 				},
 				{
 					"icon": "mdi:web",
-					"link": "https://vaishnav.one",
+					"link": "https://stanleyedward.me",
 					"text": "Web Portfolio"
 				}
 			]
 		},
-		"name": "Vaishnav Manoj",
-		"image": "me.jpg",
+		"name": "Stanley Edward",
+		"image": "sharg.jpg",
 		"location": "Chennai, India",
 		"university": "SRM Institute of Science & Technology",
 		"socials": {
 			"Email": {
 				"icon": "ic:baseline-email",
-				"link": "mailto:vaishnav240204@gmail.com"
+				"link": "mailto:stanleyedward9715@gmail.com"
 			},
 			"Twitter": {
 				"icon": "mdi:twitter",
@@ -37,26 +37,26 @@
 			},
 			"LinkedIn": {
 				"icon": "mdi:linkedin",
-				"link": "https://www.linkedin.com/in/vaishnav-mk"
+				"link": "https://www.linkedin.com/in/stanley-edward"
 			},
 			"Github": {
-				"icon": "mdi:github",
-				"link": "https://github.com/vaishnav-mk"
+				"icon": "mdi:",
+				"link": "https://github.com/stanleyedward"
 			}
 		},
 		"darkMode": true,
 		"footer": "Quantum leaps in ML, fueled by [recursive](/) exploration, unlock the universe's potential.",
 		"navbar": {
-			"title": "Vaishnav Manoj",
+			"title": "Stanley Edward",
 			"separator": "/",
 			"links": [
 				{
 					"title": "Portfolio",
-					"url": "https://vaishnav.one"
+					"url": "https://stanleyedward.me"
 				},
 				{
 					"title": "Resume",
-					"url": "https://www.vaishnav.one/view-resume"
+					"url": "https://drive.google.com/file/d/1j1e4yJxrEwrViEb0GoY2udewZ9zSG1sC/view"
 				}
 			]
 		}
@@ -130,7 +130,7 @@
 							"link": "https://github.com/vaishnav-mk/quantum-teleportation"
 						}
 					],
-					"image": "circuit.png",
+					"image": "lego_16_epoch_400.gif",
 					"tags": ["Quantum"]
 				},
 				{
