@@ -13,7 +13,7 @@
 	class="md:w-1/5 md:h-full w-full md:sticky md:top-0 md:min-h-screen p-5 hidden md:block dark:text-zinc-300"
 >
 	<div class="flex flex-col items-start">
-		<img src={img_url} alt="Vaishnav Manoj" class="w-48 h-48 rounded-full mx-auto mb-5" />
+		<img src={img_url} alt="Stanley Edward" class="w-48 h-48 rounded-full mx-auto mb-5" />
 		<h1 class="text-xl font-bold">{data?.name}</h1>
 		<p class="my-4">Bachelor of Technology undergraduate at SRMIST</p>
 		<p class="flex items-center gap-2">

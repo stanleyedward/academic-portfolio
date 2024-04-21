@@ -30,7 +30,7 @@ info:
       icon: "mdi:github"
       link: "https://github.com/stanleyedward"
   darkMode: true
-  footer: "Quantum leaps in ML, fueled by [recursive](/) exploration, unlock the universe's potential."
+  footer: "Forked from my friend's [website](https://github.com/vaishnav-mk/academic-portfolio)!"
   navbar:
     title: "Stanley Edward"
     separator: "/"
@@ -78,10 +78,11 @@ sections:
           - "Achieved an average Peak Signal-to-Noise Ratio score of 29.20 on the test set for View Synthesis."
         links:
           - icon: "mdi:github"
-            text: "Github Link"
+            text: "Github"
             link: "https://github.com/stanleyedward/nerf_pytorch_lightning"
         image: "lego_16_epoch_400.gif"
         tags: ["Machine Learning", "Computer Graphics"]
+        duration: "Mar 2024 - Apr 2024"
       - title: "Recursive Ray-Tracer"
         description:
           - "Developed a recursive ray tracing algorithm to render scenes with photo-realistic lighting and shading effects."
@@ -89,9 +90,10 @@ sections:
           - "Rendered 7 scenes using the ray tracer, showcasing a diverse range of visual compositions."
         links:
           - icon: "mdi:github"
-            text: "Github Link"
+            text: "Github"
             link: "https://github.com/stanleyedward/recursive-raytracer"
         image: "raytracer.gif"
+        duration: "Feb 2024 – Mar 2024"
         tags: ["Computer Graphics"]
       - title: "Panorama - Image Stitching"
         description:
@@ -101,9 +103,10 @@ sections:
           - "Orchestrated recursive stitching of intermediate panoramas to optimize render efficiency."
         links:
           - icon: "mdi:github"
-            text: "Github Link"
+            text: "Github"
             link: "https://github.com/stanleyedward/panorama-image-stitching"
         image: "pano.gif"
+        duration: "Jan 2024"
         tags: ["Computer Vision"]
       - title: "Vision Transformers"
         description:
@@ -112,52 +115,40 @@ sections:
           - "Authored a detailed blog post on Medium exploring Transformers and their social impacts. Garnered over 50 likes within the 1st week of publication."
         links:
           - icon: "mdi:github"
-            text: "Github Link"
+            text: "Github"
             link: "https://github.com/stanleyedward/vision_transformer_pytorch"
         image: "vit.png"
+        duration: "Aug 2023 – Nov 2023"
         tags: ["Machine Learning", "Computer Vision"]
-  - title: "Communities"
-    data:
-      - title: "Next Tech Lab"
-        designation: "Member - McCarthy Lab"
-        location: "Chennai, IN"
-        duration: "September 2023 - Present"
-        description:
-          - "Part of the distinguished QS Award-winning lab, recognized twice for research excellence. Acknowledged for achievements, with a focus on advanced machine learning methods within the renowned **McCarthy Lab** where I orchestrated seamless project collaboration, driving cutting-edge research in **AI** and **Quantum Computing**."
-          - "Developed Next Tech Lab’s website using **Next.js, TailwindCSS, and Sanity.io CMS**, achieving a perfect **100%** score on Lighthouse performance metrics, ensuring modern and optimized user experience."
-          - "Created the **NTL Quest Site**, a secret recruiting challenge, based on the **5 labs** under Next Tech Lab."
-        links:
-          - icon: "mdi:web"
-            text: "Website"
-            link: "https://nexttechlab.club"
-        image: "ntl.png"
-        tags: ["All", "Machine Learning"]
-      - title: "Data Science Community"
-        designation: "Research Supervisor"
-        location: "SRM, Chennai"
-        duration: "December 2022 - Present"
-        description:
-          - "Managed and guided web development initiatives, creating an efficient [URL shortener](https://example.com) using **Next.js, MongoDB, and Redis** for optimized caching."
-          - "Achieved a substantial *170% reduction* in load time for the [Club’s website](https://dscommunity.in), optimizing it from **18.7 seconds** to approximately **1.5 seconds**."
-          - "Authored diverse [Medium articles](https://medium.com/data-science-community-srm) for the Data Science Medium Journal, contributing to the club’s knowledge-sharing endeavors and reaching an audience of over **100,000+**."
-          - "Mentored peers and conducted weekly research paper reviews, staying abreast of advancements in *AI* and *Quantum Computing*."
-          - "Offered mentorship to a cohort of **300+ participants** throughout the Data Science Hackathon."
-        links:
-          - icon: "mdi:web"
-            text: "Website"
-            link: "https://dscommunity.in"
-        image: "dsc.png"
-        tags: ["All", "Web Development"]
-      - title: "GDSC SRM"
-        designation: "Technical Team Member"
-        location: "SRM, Chennai"
-        duration: "May 2023 - Present"
-        description:
-          - "Worked on the Events Management System, a web application that streamlined event management processes, ensuring seamless coordination and communication among the team members. The application was developed using **Next.js, TailwindCSS, and Firebase**."
-          - "Created a custom wrapper for **GCP's Cloud Storage** to facilitate efficient file uploads and downloads, enhancing the user experience and ensuring optimal performance."
-        links:
-          - icon: "mdi:web"
-            text: "Website"
-            link: "https://gdscsrm.com"
-        image: "gdsc.png"
-        tags: ["All", "Web Development"]
+  # - title: "Communities"
+  #   data:
+  #     - title: "Next Tech Lab"
+  #       designation: "Member - McCarthy Lab"
+  #       location: "Chennai, IN"
+  #       duration: "September 2023 - Present"
+  #       description:
+  #         - "Part of the distinguished QS Award-winning lab, recognized twice for research excellence. Acknowledged for achievements, with a focus on advanced machine learning methods within the renowned **McCarthy Lab** where I orchestrated seamless project collaboration, driving cutting-edge research in **AI** and **Quantum Computing**."
+  #         - "Developed Next Tech Lab’s website using **Next.js, TailwindCSS, and Sanity.io CMS**, achieving a perfect **100%** score on Lighthouse performance metrics, ensuring modern and optimized user experience."
+  #         - "Created the **NTL Quest Site**, a secret recruiting challenge, based on the **5 labs** under Next Tech Lab."
+  #       links:
+  #         - icon: "mdi:web"
+  #           text: "Website"
+  #           link: "https://nexttechlab.club"
+  #       image: "ntl.png"
+  #       tags: ["All", "Machine Learning"]
+  #     - title: "Data Science Community"
+  #       designation: "Research Supervisor"
+  #       location: "SRM, Chennai"
+  #       duration: "December 2022 - Present"
+  #       description:
+  #         - "Managed and guided web development initiatives, creating an efficient [URL shortener](https://example.com) using **Next.js, MongoDB, and Redis** for optimized caching."
+  #         - "Achieved a substantial *170% reduction* in load time for the [Club’s website](https://dscommunity.in), optimizing it from **18.7 seconds** to approximately **1.5 seconds**."
+  #         - "Authored diverse [Medium articles](https://medium.com/data-science-community-srm) for the Data Science Medium Journal, contributing to the club’s knowledge-sharing endeavors and reaching an audience of over **100,000+**."
+  #         - "Mentored peers and conducted weekly research paper reviews, staying abreast of advancements in *AI* and *Quantum Computing*."
+  #         - "Offered mentorship to a cohort of **300+ participants** throughout the Data Science Hackathon."
+  #       links:
+  #         - icon: "mdi:web"
+  #           text: "Website"
+  #           link: "https://dscommunity.in"
+  #       image: "dsc_purple.png"
+  #       tags: ["All", "Web Development"]
