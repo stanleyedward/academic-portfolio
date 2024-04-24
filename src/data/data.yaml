@@ -1,6 +1,6 @@
 config:
   darkMode: true
-  maxDisplay: 3
+  maxDisplay: 4
   addAllTag: true
   defaultAsset: 'favicon.png'
 info:
@@ -14,144 +14,157 @@ info:
         text: 'SRM University'
   about:
     description:
-      - "I am an undergraduate student at SRM Intitute of Science & Technology, pursuing a bachelor’s degree in technology with specialization in Software Engineering. Currently, my research revolves around quantum key distribution protocols and error correction techniques. I am actively involved in investigating Quantum Key Distribution (QKD) under the mentorship of Dr. Gayathri M. Additionally, I contribute to the Machine Learning division at [NextTech Lab](https://nexttechlab.club), leveraging my expertise to explore the intersection of quantum computing and machine learning. At the [Indian Institute of Science](https://iisc.ac.in/)'s [DREAM Lab](https://dream-lab.in/) I contribute to XFaaS, a system enabling deployment of FaaS workflows across multiple cloud platforms, promoting portability and cost-efficiency"
+      - "Student with unsatiated hunger to advance in the field of **deep learning**, looking to specialize in **computer vision and graphics**. Trying to get familiar with 3D reconstuction and view synthesis. Always excited to help people and listen to people with similar interests. Finds zen staring at decrementing loss counters while listening to korn."
     links:
-      - icon: 'mdi:document'
-        text: 'Resume'
-        link: 'https://www.vaishnav.one/resume'
-      - icon: 'system-uicons:write'
-        link: 'https://medium.com/@wishee'
-        text: 'Medium Articles'
-      - icon: 'mdi:web'
-        link: 'https://vaishnav.one'
-        text: 'Web Portfolio'
-  name: 'Vaishnav Manoj'
-  image: 'me.jpg'
-  location: 'Chennai, India'
-  university: 'SRM Institute of Science & Technology'
+      - icon: "mdi:document"
+        text: "Resume"
+        link: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
+      # - icon: "system-uicons:write"
+      #   link: "https://medium.com/@stanleyedward"
+      #   text: "Medium Articles"
+      # - icon: "mdi:web"
+      #   link: "https://stanleyedward.me"
+      #   text: "Web Portfolio"
+  name: "Stanley Edward"
+  image: "sharg.jpg"
+  location: "Chennai, India"
+  university: "SRM Institute of Science & Technology"
   socials:
     Email:
-      icon: 'ic:baseline-email'
-      link: 'mailto:vaishnav240204@gmail.com'
-    Twitter:
-      icon: 'mdi:twitter'
-      link: 'https://twitter.com/@wishee0'
+      icon: "ic:baseline-email"
+      link: "mailto:stanleyedward9715@gmail.com"
+    # Twitter:
+    #   icon: "mdi:twitter"
+    #   link: "https://twitter.com/@wishee0"
     LinkedIn:
-      icon: 'mdi:linkedin'
-      link: 'https://www.linkedin.com/in/vaishnav-mk'
+      icon: "mdi:linkedin"
+      link: "https://www.linkedin.com/in/stanley-edward"
     Github:
-      icon: 'mdi:github'
-      link: 'https://github.com/vaishnav-mk'
-  footer: "Quantum leaps in ML, fueled by [recursive](/) exploration, unlock the universe's potential."
+      icon: "mdi:github"
+      link: "https://github.com/stanleyedward"
+  footer: "This is a fork of my friend's [website](https://github.com/vaishnav-mk/academic-portfolio)!"
   navbar:
-    title: 'Vaishnav Manoj'
-    separator: '/'
+    title: "Stanley Edward"
+    separator: "/"
     links:
-      - title: 'Portfolio'
-        url: 'https://vaishnav.one'
-      - title: 'Resume'
-        url: 'https://www.vaishnav.one/view-resume'
+      - title: "Portfolio"
+        url: "https://stanleyedward.me"
+      - title: "Resume"
+        url: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
 sections:
-  - title: 'Experience'
+  - title: "Experience"
     data:
-      - title: 'Distributed Research on Emerging Applications & Machines (DREAM) lab'
-        designation: 'Research Intern'
-        location: 'Indian Institute of Science, Bangalore'
-        duration: 'June 2024 - Present'
+      - title: "Next Tech Lab"
+        designation: "Member - McCarthy Lab"
+        location: "Chennai, IN"
+        duration: "Oct 2023 - Present"
         description:
-          - "  - Design code wrappers to seamlessly integrate FaaS functions with different cloud providers' native FaaS engines."
-          - '  - Develop workflow orchestration logic to coordinate execution of FaaS functions across clouds.'
-          - '  - Implement intelligent function fusion techniques to reduce workflow execution latency and optimize costs.'
-          - '  - Create placement strategies to strategically deploy functions across cloud providers for optimal performance and cost efficiency.'
-        image: 'iisc.png'
-        links:
-          - link: 'https://dream-lab.in/hybrid-clouds-quantum'
-            text: 'DREAM:lab'
-          - link: 'https://doi.org/10.1109/eScience55777.2022.00057'
-            text: 'XFaaS Paper [eScience 2022, CCGRID 2023]'
-        tags: ['Cloud']
-      - title: 'Quantum Computing Lab'
-        designation: 'Research Assistant'
-        location: 'SRM University, Chennai'
-        duration: 'February 2024 - Present'
+          - "  - Contributed to a portfolio of multiple **Deep Learning** projects, gaining proficiency in **Computer Vision and Computer Graphics** disciplines."
+          - "  - Trained many models utilizing frameworks such as **PyTorch Lightning and Weights & Biases** for experiment tracking, enhancing project efficiency and reproducibility."
+        image: "ntl.png"
+        # links:
+        #   - link: "https://dream-lab.in/hybrid-clouds-quantum"
+        #     text: "DREAM:lab"
+        #   - link: "https://doi.org/10.1109/eScience55777.2022.00057"
+        #     text: "XFaaS Paper [eScience 2022, CCGRID 2023]"
+        tags: ["All", "Machine Learning"]
+      - title: "Data Science Community SRM"
+        designation: "Technical Member"
+        location: "Chennai, IN"
+        duration: "Oct 2023 - Present"
         description:
-          - 'Currently focused on developing an efficient method for data protection using Quantum Key Distribution (QKD) protocols.'
-          - "Engaged in the development of a Quantum Key Distribution protocol utilizing Qiskit and IBM Quantum Experience's Quantum Computers for practical implementation."
-          - 'Guided by Dr. Gayathri, Assistant Professor in the Department of Computer Science and Engineering at SRMIST, for insightful advice and direction.'
-        links:
-          - icon: 'mdi:github'
-            text: 'Github Link'
-            link: 'https://github.com/vaishnav-mk/quantum-teleportation'
-        image: 'srm2.png'
-        tags: ['Quantum']
-  - title: 'Projects'
+          - "**Curated an article on DataX Journal** exploring the revolution of the Transformer Architecture in the 2020s."
+          - "Finetuned a DistilBERT model to detect toxic behaviour online, **enhancing child safety in digital environments**, achieved an F1-score of 0.97 on testing."
+        # links:
+        #   - icon: "mdi:github"
+        #     text: "Github Link"
+        #     link: "https://github.com/vaishnav-mk/quantum-teleportation"
+        image: "dsc_purple.png"
+        tags: ["All", "Machine Learning"]
+  - title: "Projects"
     data:
-      - title: 'Quantum Teleportation'
+      - title: "Neural Radiance Fields"
         description:
-          - 'Engineered a Quantum Data Teleportation system with **Qiskit** using 3 qubits, employing strategic Bell pair utilization and harnessing the principles of **Quantum Superposition** and **Quantum Entanglement**. Implemented a robust teleportation mechanism, showcasing expertise in quantum algorithms.'
-          - 'Incorporated insights from the ”Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels” paper to enhance the performance of the system. Demonstrated a nuanced understanding of cutting-edge research, elevating the teleportation capabilities through dual classical and quantum channels.'
-          - 'Established 2 entangled qubits for secure and efficient quantum data teleportation between distant locations through strategic utilization of Bell pair utilization and the principles of **Quantum Superposition** and **Entanglement**.'
-          - 'Implemented 3-bit quantum error correction mechanisms to ensure data accuracy during teleportation processes.'
-          - 'Accelerated data teleportation time by a notable 12% by integrating CUDA Quantum, enhancing overall system efficiency and performance.'
+          - "Implemented the research paper **”NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis”** and trained the NeRF on a synthetic NeRF dataset with 400px resolution."
+          - "Leveraged **Lightning** for a flexible and scalable pipeline and **W&B** for tracking over 10+ experiments."
+          - "Achieved an **average Peak Signal-to-Noise Ratio score of 29.20** on the test set for View Synthesis."
         links:
-          - icon: 'mdi:github'
-            text: 'Github Link'
-            link: 'https://github.com/vaishnav-mk/quantum-teleportation'
-        image: 'circuit.png'
-        tags: ['Quantum']
-      - title: 'Hamiltonian Grapher'
+          - icon: "mdi:github"
+            text: "Github"
+            link: "https://github.com/stanleyedward/nerf_pytorch_lightning"
+        image: "lego_16_epoch_400.gif"
+        tags: ["All", "Machine Learning", "Computer Graphics"]
+        duration: "Mar 2024 - Apr 2024"
+      - title: "Recursive Ray-Tracer"
         description:
-          - 'Implemented an efficient quantum algorithm using **Qiskit**, specifically applying the Variational Quantum Eigensolver (VQE) algorithm with the TwoLocal ansatz and an entanglement structure for Hamiltonian analysis. This involved architecting a robust quantum circuit tailored for analyzing Hamiltonians, enabling accurate eigenvalue computations.'
-          - 'Utilized the Simultaneous Perturbation Stochastic Approximation (SPSA) algorithm to optimize the ansatz further, ensuring precision in eigenvalue computations. By fine-tuning the ansatz parameters, the algorithm achieved optimal performance in quantum computations, particularly in handling complex eigenstates and eigenvalues.'
-          - 'Architected a responsive web application using **FastAPI**, **Next.js**, and **TailwindCSS** to complement the quantum algorithm. The application provides seamless user interaction and visual appeal, allowing users to input Hamiltonian parameters and visualize the corresponding quantum states and eigenvalues in real-time.'
+          - "Developed a recursive ray tracing algorithm to render scenes with **photo-realistic lighting and shading** effects."
+          - "Leveraged the **GLM library** for streamlined vector and matrix computations, optimizing computational performance and enhancing code readability."
+          - "Rendered 7 scenes using the ray tracer, showcasing a diverse range of visual compositions."
         links:
-          - icon: 'mdi:github'
-            text: 'Github Link'
-            link: 'https://github.com/vaishnav-mk/hamiltonian-grapher'
-        image: 'hamiltonian.png'
-        tags: ['Quantum', 'Full-Stack']
-  - title: 'Communities'
-    data:
-      - title: 'Next Tech Lab'
-        designation: 'Member - McCarthy Lab'
-        location: 'Chennai, IN'
-        duration: 'September 2023 - Present'
+          - icon: "mdi:github"
+            text: "Github"
+            link: "https://github.com/stanleyedward/recursive-raytracer"
+        image: "render3.png"
+        duration: "Feb 2024 – Mar 2024"
+        onHover:
+          - image: "renders.gif"
+        tags: ["All", "Computer Graphics"]
+      - title: "Panorama - Image Stitching"
         description:
-          - 'Part of the distinguished QS Award-winning lab, recognized twice for research excellence. Acknowledged for achievements, with a focus on advanced machine learning methods within the renowned **McCarthy Lab** where I orchestrated seamless project collaboration, driving cutting-edge research in **AI** and **Quantum Computing**.'
-          - 'Developed Next Tech Lab’s website using **Next.js, TailwindCSS, and Sanity.io CMS**, achieving a perfect **100%** score on Lighthouse performance metrics, ensuring modern and optimized user experience.'
-          - 'Created the **NTL Quest Site**, a secret recruiting challenge, based on the **5 labs** under Next Tech Lab.'
+          - "Utilized **SIFT** algorithm to extract robust keypoints and descriptors from overlapping regions of each image pair."
+          - "Employed **RANSAC** to estimate the homography matrix, defining geometric transformations between image pairs."
+          - "Introduced **weighted blending techniques to ensure smooth transitions**, reducing artifacts by 50%."
+          - "Orchestrated **recursive stitching** of intermediate panoramas to optimize render efficiency."
         links:
-          - icon: 'mdi:web'
-            text: 'Website'
-            link: 'https://nexttechlab.club'
-        image: 'ntl.png'
-        tags: ['Machine Learning']
-      - title: 'Data Science Community'
-        designation: 'Research Supervisor'
-        location: 'SRM, Chennai'
-        duration: 'December 2022 - Present'
+          - icon: "mdi:github"
+            text: "Github"
+            link: "https://github.com/stanleyedward/panorama-image-stitching"
+        image: "pano4_ed.png"
+        duration: "Jan 2024"
+        onHover:
+          - image: "pano.gif"
+        tags: ["All", "Computer Vision"]
+      - title: "Vision Transformers"
         description:
-          - 'Managed and guided web development initiatives, creating an efficient [URL shortener](https://example.com) using **Next.js, MongoDB, and Redis** for optimized caching.'
-          - 'Achieved a substantial *170% reduction* in load time for the [Club’s website](https://dscommunity.in), optimizing it from **18.7 seconds** to approximately **1.5 seconds**.'
-          - 'Authored diverse [Medium articles](https://medium.com/data-science-community-srm) for the Data Science Medium Journal, contributing to the club’s knowledge-sharing endeavors and reaching an audience of over **100,000+**.'
-          - 'Mentored peers and conducted weekly research paper reviews, staying abreast of advancements in *AI* and *Quantum Computing*.'
-          - 'Offered mentorship to a cohort of **300+ participants** throughout the Data Science Hackathon.'
+          - "Implemented the ViT-B/16 model from the research paper ”An image is worth 16x16 words” in PyTorch."
+          - "Analyzed the motivations behind the architecture and conducted image classification experiments."
+          - "Authored a detailed blog post on Medium exploring Transformers and their social impacts. Garnered over 50 likes within the 1st week of publication."
         links:
-          - icon: 'mdi:web'
-            text: 'Website'
-            link: 'https://dscommunity.in'
-        image: 'dsc.png'
-        tags: ['Web Development']
-      - title: 'GDSC SRM'
-        designation: 'Technical Team Member'
-        location: 'SRM, Chennai'
-        duration: 'May 2023 - Present'
-        description:
-          - 'Worked on the Events Management System, a web application that streamlined event management processes, ensuring seamless coordination and communication among the team members. The application was developed using **Next.js, TailwindCSS, and Firebase**.'
-          - "Created a custom wrapper for **GCP's Cloud Storage** to facilitate efficient file uploads and downloads, enhancing the user experience and ensuring optimal performance."
-        links:
-          - icon: 'mdi:web'
-            text: 'Website'
-            link: 'https://gdscsrm.com'
-        image: 'gdsc.png'
-        tags: ['Web Development']
+          - icon: "mdi:github"
+            text: "Github"
+            link: "https://github.com/stanleyedward/vision_transformer_pytorch"
+        image: "vit.png"
+        duration: "Aug 2023 – Nov 2023"
+        tags: ["All", "Machine Learning", "Computer Vision"]
+  # - title: "Communities"
+  #   data:
+  #     - title: "Next Tech Lab"
+  #       designation: "Member - McCarthy Lab"
+  #       location: "Chennai, IN"
+  #       duration: "September 2023 - Present"
+  #       description:
+  #         - "Part of the distinguished QS Award-winning lab, recognized twice for research excellence. Acknowledged for achievements, with a focus on advanced machine learning methods within the renowned **McCarthy Lab** where I orchestrated seamless project collaboration, driving cutting-edge research in **AI** and **Quantum Computing**."
+  #         - "Developed Next Tech Lab’s website using **Next.js, TailwindCSS, and Sanity.io CMS**, achieving a perfect **100%** score on Lighthouse performance metrics, ensuring modern and optimized user experience."
+  #         - "Created the **NTL Quest Site**, a secret recruiting challenge, based on the **5 labs** under Next Tech Lab."
+  #       links:
+  #         - icon: "mdi:web"
+  #           text: "Website"
+  #           link: "https://nexttechlab.club"
+  #       image: "ntl.png"
+  #       tags: ["All", "Machine Learning"]
+  #     - title: "Data Science Community"
+  #       designation: "Research Supervisor"
+  #       location: "SRM, Chennai"
+  #       duration: "December 2022 - Present"
+  #       description:
+  #         - "Managed and guided web development initiatives, creating an efficient [URL shortener](https://example.com) using **Next.js, MongoDB, and Redis** for optimized caching."
+  #         - "Achieved a substantial *170% reduction* in load time for the [Club’s website](https://dscommunity.in), optimizing it from **18.7 seconds** to approximately **1.5 seconds**."
+  #         - "Authored diverse [Medium articles](https://medium.com/data-science-community-srm) for the Data Science Medium Journal, contributing to the club’s knowledge-sharing endeavors and reaching an audience of over **100,000+**."
+  #         - "Mentored peers and conducted weekly research paper reviews, staying abreast of advancements in *AI* and *Quantum Computing*."
+  #         - "Offered mentorship to a cohort of **300+ participants** throughout the Data Science Hackathon."
+  #       links:
+  #         - icon: "mdi:web"
+  #           text: "Website"
+  #           link: "https://dscommunity.in"
+  #       image: "dsc_purple.png"
+  #       tags: ["All", "Web Development"]

@@ -5,7 +5,7 @@
 
 	export let data, darkMode;
 
-	const githubLink = 'https://github.com/vaishnav-mk/academic-portfolio';
+	const githubLink = 'https://github.com/stanleyedward/academic-portfolio';
 </script>
 
 <footer
