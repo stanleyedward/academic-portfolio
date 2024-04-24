@@ -47,8 +47,8 @@ info:
     title: "Stanley Edward"
     separator: "/"
     links:
-      - title: "Portfolio"
-        url: "https://stanleyedward.me"
+      # - title: "Portfolio"
+      #   url: "https://stanleyedward.me"
       - title: "Resume"
         url: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
 sections:
