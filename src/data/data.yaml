@@ -6,15 +6,15 @@ config:
 info:
   sidebar:
     description:
-      - 'Bachelor of Technology undergraduate at SRMIST'
+      - 'Bachelor of Technology in Computer Science'
     details:
       - icon: 'mdi:location'
         text: 'Chennai, India'
       - icon: 'mdi:university'
-        text: 'SRM University'
+        text: 'SRMIST'
   about:
     description:
-      - "Student with unsatiated hunger to advance in the field of **deep learning**, looking to specialize in **computer vision and graphics**. Trying to get familiar with 3D reconstuction and view synthesis. Always excited to help people and listen to people with similar interests. Finds zen staring at decrementing loss counters while listening to korn."
+      - "**2nd Year UG student** with unsatiated hunger to advance in the field of **deep learning** intersecting with **computer vision and computer graphics**, research and specialize in **3D reconstuction and view synthesis**. Finds zen staring at decrementing loss counters while listening to korn."
     links:
       - icon: "mdi:document"
         text: "Resume"
