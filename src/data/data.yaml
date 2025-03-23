@@ -14,7 +14,7 @@ info:
         text: 'SRMIST'
   about:
     description:
-      - "**2nd Year UG student** with unsatiated hunger to advance in the field of **deep learning** intersecting with **computer vision and computer graphics**, research and specialize in **3D reconstuction and view synthesis**. Finds zen staring at decrementing loss counters while listening to korn."
+      - "3rd yr UG student doing computer science, I like researching **3D vision** and **High Performance Computing**."
     links:
       - icon: "mdi:document"
         text: "Resume"
@@ -59,8 +59,8 @@ sections:
         location: "Chennai, IN"
         duration: "Oct 2023 - Present"
         description:
-          - "  - Contributed to a portfolio of multiple **Deep Learning** projects, gaining proficiency in **Computer Vision and Computer Graphics** disciplines."
-          - "  - Trained many models utilizing frameworks such as **PyTorch Lightning and Weights & Biases** for experiment tracking, enhancing project efficiency and reproducibility."
+          - "  - Advanced a suite of deep learning projects, sharpening expertise in 3D/computer vision, and graphics domains"
+          - "  - Engineered and trained 15+ models with PyTorch Lightning and Weights & Biases, streamlining experiment tracking and boosting reproducibility."
         image: "ntl.png"
         # links:
         #   - link: "https://dream-lab.in/hybrid-clouds-quantum"
@@ -71,10 +71,11 @@ sections:
       - title: "Data Science Community SRM"
         designation: "Research Director"
         location: "Chennai, IN"
-        duration: "Oct 2023 - Present"
+        duration: "Jul 2024 - Present"
         description:
-          - "**Curated an article on DataX Journal** exploring the revolution of the Transformer Architecture in the 2020s."
-          - "Finetuned a DistilBERT model to detect toxic behaviour online, **enhancing child safety in digital environments**, achieved an F1-score of 0.97 on testing."
+          - "Co-led with 2 research supervisors to guide and mentor members on projects and initiatives."
+          - "Directed a project blocking 96% of explicit content to enhance the security of children in online environments"
+          - "Architected a queue-based parallel computing framework, accelerating machine learning processing by 3x across diverse content channels, including text, image, speech, and video"
         # links:
         #   - icon: "mdi:github"
         #     text: "Github Link"
@@ -83,6 +84,18 @@ sections:
         tags: ["All", "Machine Learning"]
   - title: "Projects"
     data:
+      - title: "High Performance Neural Networks"
+        description:
+          - "**Reduced training epoch times by 49%** by developing a high performance GPU-accelerated neural network pipeline."
+          - "Attained a 6x speedup by implementing **L1 cache tiling**, minimizing memory access latency in FMA kernels."
+          - "Developed an optimized Softmax kernel that reduced compute time by 2 orders of magnitudes through **shared memory reduction** and coalesced accesses."
+        links:
+          - icon: "mdi:github"
+            text: "Github"
+            link: "https://github.com/stanleyedward/nn"
+        image: "lego_16_epoch_400.gif"
+        tags: ["All", "Machine Learning", "High Performance Computing"]
+        # duration: "Mar 2024 - Apr 2024"
       - title: "Neural Radiance Fields"
         description:
           - "Implemented the research paper **”NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis”** and trained the NeRF on a synthetic NeRF dataset with 400px resolution."
@@ -94,7 +107,7 @@ sections:
             link: "https://github.com/stanleyedward/nerf_pytorch_lightning"
         image: "lego_16_epoch_400.gif"
         tags: ["All", "Machine Learning", "Computer Graphics"]
-        duration: "Mar 2024 - Apr 2024"
+        # duration: "Mar 2024 - Apr 2024"
       - title: "Recursive Ray-Tracer"
         description:
           - "Developed a recursive ray tracing algorithm to render scenes with **photo-realistic lighting and shading** effects."
@@ -105,7 +118,7 @@ sections:
             text: "Github"
             link: "https://github.com/stanleyedward/recursive-raytracer"
         image: "render3.png"
-        duration: "Feb 2024 – Mar 2024"
+        # duration: "Feb 2024 – Mar 2024"
         onHover:
           - image: "renders.gif"
         tags: ["All", "Computer Graphics"]
@@ -120,7 +133,7 @@ sections:
             text: "Github"
             link: "https://github.com/stanleyedward/panorama-image-stitching"
         image: "pano4_ed.png"
-        duration: "Jan 2024"
+        # duration: "Jan 2024"
         onHover:
           - image: "pano.gif"
         tags: ["All", "Computer Vision"]
@@ -134,7 +147,7 @@ sections:
             text: "Github"
             link: "https://github.com/stanleyedward/vision_transformer_pytorch"
         image: "vit.png"
-        duration: "Aug 2023 – Nov 2023"
+        # duration: "Aug 2023 – Nov 2023"
         tags: ["All", "Machine Learning", "Computer Vision"]
   # - title: "Communities"
   #   data:
@@ -168,3 +181,19 @@ sections:
   #           link: "https://dscommunity.in"
   #       image: "dsc_purple.png"
   #       tags: ["All", "Web Development"]
+  - title: "Education"
+    data:
+      - title: "SRMIST, KTR"
+        designation: "B.Tech, Computer Science Engineering"
+        location: "Overall GPA: 9.08/10.00"
+        duration: "Jun 2022 - May 2026"
+        description:
+          - "  - **Relevant Coursework:** Calculus and Linear Algebra — Advance Calculus and Complex Analysis — Probability and Statistics — Digital Image Processing — DSA — Design and Analysis of Algorithms — Advanved OOP — Operating Sytems — Database Management Systems — Artificial Neural Networks — Machine Learning for Data Analysis"
+        image: "srm3.png"
+        # links:
+        #   - link: "https://dream-lab.in/hybrid-clouds-quantum"
+        #     text: "DREAM:lab"
+        #   - link: "https://doi.org/10.1109/eScience55777.2022.00057"
+        #     text: "XFaaS Paper [eScience 2022, CCGRID 2023]"
+        # tags: ["All", "Machine Learning"]
+
