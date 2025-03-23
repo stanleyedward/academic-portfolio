@@ -1,6 +1,6 @@
 config:
   darkMode: true
-  maxDisplay: 4
+  maxDisplay: 10
   addAllTag: true
   defaultAsset: 'favicon.png'
 info:
@@ -86,8 +86,8 @@ sections:
     data:
       - title: "High Performance Neural Nets"
         description:
-          - "**Reduced training epoch times by 49%** by developing a high performance GPU-accelerated neural network pipeline."
-          - "Attained a 6x speedup by implementing **L1 cache tiling**, minimizing memory access latency in FMA kernels."
+          - "**Reduced training epoch times by 49%** by developing an accelerated neural network pipeline."
+          - "Attained a 6x speedup by implementing **L1 cache tiling**, minimizing memory access latency in Fused Multiply-Add kernels."
           - "Developed an optimized Softmax kernel that reduced compute time by 2 orders of magnitudes through **shared memory reduction** and coalesced accesses."
         links:
           - icon: "mdi:github"
@@ -99,7 +99,7 @@ sections:
       - title: "Neural Radiance Fields"
         description:
           - "Executed the Neural Radiance Fields research methodology to deliver novel view synthesis and 3D reconstruction."
-          - "Integrated PyTorch Lightning and Weights & Biases, automating the tracking of 10+ experiments to boost reproducibility and accelerate model iteration."
+          # - "Integrated PyTorch Lightning and Weights & Biases, automating the tracking of 10+ experiments to boost reproducibility and accelerate model iteration."
           - "Achieved an **average Peak Signal-to-Noise Ratio score of 29.20** on the test set for View Synthesis."
         links:
           - icon: "mdi:github"
@@ -110,9 +110,8 @@ sections:
         # duration: "Mar 2024 - Apr 2024"
       - title: "Recursive Ray-Tracer"
         description:
-          - "Developed a recursive ray tracing algorithm to render scenes with photo-realistic lighting and shading effects."
-          - "Rendered 7 scenes using the ray tracer, showcasing a diverse range of visual compositions."
-          - "Leveraged the GLM library for streamlined vector and matrix computations, optimizing computational performance and enhancing code readability."
+          - "Developed a recursive ray tracing algorithm to render 7 diverse scenes with **photo-realistic lighting and shading effects**."
+          - "Leveraged the GLM library for efficient vector and matrix computations, optimizing performance and readability."
         links:
           - icon: "mdi:github"
             text: "Github"
@@ -124,9 +123,8 @@ sections:
         tags: ["All", "Computer Graphics"]
       - title: "Panorama - Image Stitching"
         description:
-          - "Utilized the SIFT algorithm to extract robust keypoints and descriptors, improving image alignment by 30%"
-          - "Employed RANSAC to estimate geometric transformations between image pairs with +15% accuracy."
-          - "Introduced weighted blending techniques to ensure smooth transitions, reducing artifacts by 90%."
+          - "Utilized the **SIFT** algorithm to extract robust keypoints and descriptors, combined with **RANSAC** for estimating geometric transformations between image pairs."
+          - "Introduced weighted blending techniques to ensure smooth transitions. Reduced artifacts by 90% and overall +32% in image alignment."
         links:
           - icon: "mdi:github"
             text: "Github"
