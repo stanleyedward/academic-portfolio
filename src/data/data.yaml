@@ -59,7 +59,7 @@ sections:
         location: "Chennai, IN"
         duration: "Oct 2023 - Present"
         description:
-          - "  - Advanced a suite of deep learning projects, sharpening expertise in 3D/computer vision, and graphics domains"
+          - "  - Advanced a suite of deep learning projects, sharpening expertise in **3D/computer vision, and graphics domains**."
           - "  - Engineered and trained 15+ models with PyTorch Lightning and Weights & Biases, streamlining experiment tracking and boosting reproducibility."
         image: "ntl.png"
         # links:
@@ -84,7 +84,7 @@ sections:
         tags: ["All", "Machine Learning"]
   - title: "Projects"
     data:
-      - title: "High Performance Neural Networks"
+      - title: "High Performance Neural Nets"
         description:
           - "**Reduced training epoch times by 49%** by developing a high performance GPU-accelerated neural network pipeline."
           - "Attained a 6x speedup by implementing **L1 cache tiling**, minimizing memory access latency in FMA kernels."
@@ -93,26 +93,26 @@ sections:
           - icon: "mdi:github"
             text: "Github"
             link: "https://github.com/stanleyedward/nn"
-        image: "lego_16_epoch_400.gif"
+        image: "nn.gif"
         tags: ["All", "Machine Learning", "High Performance Computing"]
         # duration: "Mar 2024 - Apr 2024"
       - title: "Neural Radiance Fields"
         description:
-          - "Implemented the research paper **”NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis”** and trained the NeRF on a synthetic NeRF dataset with 400px resolution."
-          - "Leveraged **Lightning** for a flexible and scalable pipeline and **W&B** for tracking over 10+ experiments."
+          - "Executed the Neural Radiance Fields research methodology to deliver novel view synthesis and 3D reconstruction."
+          - "Integrated PyTorch Lightning and Weights & Biases, automating the tracking of 10+ experiments to boost reproducibility and accelerate model iteration."
           - "Achieved an **average Peak Signal-to-Noise Ratio score of 29.20** on the test set for View Synthesis."
         links:
           - icon: "mdi:github"
             text: "Github"
-            link: "https://github.com/stanleyedward/nerf_pytorch_lightning"
+            link: "https://github.com/stanleyedward/nerf_pytorch"
         image: "lego_16_epoch_400.gif"
         tags: ["All", "Machine Learning", "Computer Graphics"]
         # duration: "Mar 2024 - Apr 2024"
       - title: "Recursive Ray-Tracer"
         description:
-          - "Developed a recursive ray tracing algorithm to render scenes with **photo-realistic lighting and shading** effects."
-          - "Leveraged the **GLM library** for streamlined vector and matrix computations, optimizing computational performance and enhancing code readability."
+          - "Developed a recursive ray tracing algorithm to render scenes with photo-realistic lighting and shading effects."
           - "Rendered 7 scenes using the ray tracer, showcasing a diverse range of visual compositions."
+          - "Leveraged the GLM library for streamlined vector and matrix computations, optimizing computational performance and enhancing code readability."
         links:
           - icon: "mdi:github"
             text: "Github"
@@ -124,10 +124,9 @@ sections:
         tags: ["All", "Computer Graphics"]
       - title: "Panorama - Image Stitching"
         description:
-          - "Utilized **SIFT** algorithm to extract robust keypoints and descriptors from overlapping regions of each image pair."
-          - "Employed **RANSAC** to estimate the homography matrix, defining geometric transformations between image pairs."
-          - "Introduced **weighted blending techniques to ensure smooth transitions**, reducing artifacts by 50%."
-          - "Orchestrated **recursive stitching** of intermediate panoramas to optimize render efficiency."
+          - "Utilized the SIFT algorithm to extract robust keypoints and descriptors, improving image alignment by 30%"
+          - "Employed RANSAC to estimate geometric transformations between image pairs with +15% accuracy."
+          - "Introduced weighted blending techniques to ensure smooth transitions, reducing artifacts by 90%."
         links:
           - icon: "mdi:github"
             text: "Github"
@@ -140,8 +139,7 @@ sections:
       - title: "Vision Transformers"
         description:
           - "Implemented the ViT-B/16 model from the research paper ”An image is worth 16x16 words” in PyTorch."
-          - "Analyzed the motivations behind the architecture and conducted image classification experiments."
-          - "Authored a detailed blog post on Medium exploring Transformers and their social impacts. Garnered over 50 likes within the 1st week of publication."
+          - "Authored a DataX Journal article analyzing the transformative impact of Transformer Architecture in the 2020."
         links:
           - icon: "mdi:github"
             text: "Github"
