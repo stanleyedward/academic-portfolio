@@ -74,8 +74,8 @@ sections:
         duration: "Jul 2024 - Present"
         description:
           - "Co-led with 2 research supervisors to guide and mentor members on projects and initiatives."
-          - "Directed a project blocking 96% of explicit content to enhance the security of children in online environments"
-          - "Architected a queue-based parallel computing framework, accelerating machine learning processing by 3x across diverse content channels, including text, image, speech, and video"
+          - "Directed a project blocking 96% of explicit content to enhance the security of children in online environments."
+          - "Architected a queue-based parallel computing framework, accelerating machine learning processing by 3x across diverse content channels, including text, image, speech, and video."
         # links:
         #   - icon: "mdi:github"
         #     text: "Github Link"
@@ -94,7 +94,7 @@ sections:
             text: "Github"
             link: "https://github.com/stanleyedward/nn"
         image: "nn.gif"
-        tags: ["All", "Machine Learning", "High Performance Computing"]
+        tags: ["All", "Machine Learning", "GPU Computing"]
         # duration: "Mar 2024 - Apr 2024"
       - title: "Neural Radiance Fields"
         description:
