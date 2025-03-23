@@ -99,7 +99,6 @@ sections:
       - title: "Neural Radiance Fields"
         description:
           - "Executed the Neural Radiance Fields research methodology to deliver novel view synthesis and 3D reconstruction."
-          # - "Integrated PyTorch Lightning and Weights & Biases, automating the tracking of 10+ experiments to boost reproducibility and accelerate model iteration."
           - "Achieved an **average Peak Signal-to-Noise Ratio score of 29.20** on the test set for View Synthesis."
         links:
           - icon: "mdi:github"
