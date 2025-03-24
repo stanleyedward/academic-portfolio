@@ -3,37 +3,98 @@
 @tailwind utilities;
 
 html {
-	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: calc(0.7rem + 0.5vw); /* Scales with viewport width */
+}
+
+/* Mobile responsiveness fixes */
+html, body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    zoom: 88%;
+}
+
+/* Make section images smaller on mobile */
+@media (max-width: 767px) {
+    /* Make profile images smaller on mobile */
+    .rounded-full {
+        max-width: 120px !important;
+        max-height: 120px !important;
+    }
+    
+    /* Ensure all images are responsive on mobile */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Fix for large section images in Experience, Projects, Education */
+    section img, 
+    [id="experience"] img,
+    [id="projects"] img, 
+    [id="education"] img {
+        max-width: 200px !important;
+        height: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Target any flex container that might be making images large */
+    .flex img, .grid img {
+        max-width: 150px !important;
+        height: auto !important;
+    }
+}
+
+/* Ensure dark mode applies properly */
+.dark * {
+    color-scheme: dark;
+}
+
+/* Static link buttons that don't resize with zoom */
+a.btn, button.btn, .link-button {
+    font-size: 16px !important; /* Fixed font size */
+    padding: 8px 16px !important; /* Fixed padding */
+    line-height: 1.5 !important; /* Fixed line height */
+    transform: none !important; /* Prevent scaling */
 }
 
 .link-hover-border {
-	position: relative;
-	overflow: hidden;
-	color: currentColor;
-	text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    color: currentColor;
+    text-decoration: none;
+    font-size: 16px; /* Fixed font size for link buttons */
 }
 
 .link-hover-border::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 2px;
-	background-color: currentColor;
-	transition: width 0.3s ease-in-out;
-	transform: translateX(-50%);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease-in-out;
+    transform: translateX(-50%);
 }
 
 .link-hover-border:hover::before {
-	width: 100%;
+    width: 100%;
 }
 
 a {
-	color: #007bff;
-	text-decoration: none;
+    color: #007bff;
+    text-decoration: none;
 }
 
-body {
-	zoom: 80%; 
+/* Improve mobile container padding */
+@media (max-width: 640px) {
+    .container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
 }
+
+
