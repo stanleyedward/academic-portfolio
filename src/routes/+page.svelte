@@ -14,8 +14,7 @@
 	const { darkMode, maxDisplay, addAllTag, defaultAsset } = config;
 </script>
 
-<!-- <div class="dark:bg-zinc-900 dark:text-white">
-
+<div class="dark:bg-zinc-900 dark:text-white">
 	{#if NavData}
 		<Nav {NavData} {darkMode}/>
 	{/if}
@@ -25,39 +24,6 @@
 			<MobileSidebar data={info} />
 		{/if}
 		<main class="md:w-3/4 overflow-y-auto p-10">
-			<div class="min-w-screen min-h-screen">
-				<div class="container mx-auto max-w-5xl mt-5">
-					{#if info}
-						<About data={info} />
-					{/if}
-					{#each sections as sectionData}
-						<Section
-							{sectionData}
-							{maxDisplay}
-							addAllTag={sectionData.addAllTag ?? addAllTag}
-							{defaultAsset}
-						/>
-					{/each}
-				</div>
-			</div>
-		</main>
-	</div>
-	{#if FooterData}
-		<Footer data={FooterData} {darkMode} />
-	{/if}
-</div> -->
-
-
-<div class="dark:bg-zinc-900 dark:text-white flex flex-col min-h-screen">
-    {#if NavData}
-        <Nav {NavData} {darkMode} {defaultAsset}/>
-    {/if}
-    <div class="flex flex-col md:flex-row max-w-7xl md:mx-auto md:gap-4 md:m-4 flex-grow">
-        <Sidebar data={info} {defaultAsset} />
-        {#if NavData}
-            <MobileSidebar data={info} {defaultAsset} />
-        {/if}
-        <main class="md:w-3/4 overflow-y-auto p-10">
 			<div class="min-w-screen min-h-screen">
 				<div class="container mx-auto max-w-5xl mt-5">
 					{#if info}

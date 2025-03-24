@@ -3,110 +3,37 @@
 @tailwind utilities;
 
 html {
-    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-}
-
-/* Mobile responsiveness fixes - safer approach */
-html, body {
-    overflow-x: hidden;
-    position: relative;
-    width: 100%;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-/* Scale content instead of using zoom (which can break in production) */
-
-
-/* Make section images smaller on mobile */
-@media (max-width: 767px) {
-    /* Make profile images smaller on mobile */
-    .rounded-full {
-        max-width: 120px;
-        max-height: 120px;
-    }
-    
-    /* Ensure all images are responsive on mobile */
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    /* Fix for large section images in Experience, Projects, Education */
-    section img, 
-    [id="experience"] img,
-    [id="projects"] img, 
-    [id="education"] img {
-        max-width: 200px;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    /* Target any flex container that might be making images large */
-    .flex img, .grid img {
-        max-width: 150px;
-        height: auto;
-    }
-}
-
-/* Ensure dark mode applies properly */
-.dark * {
-    color-scheme: dark;
-}
-
-.dark:bg-zinc-900 {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-footer {
-    margin-top: auto;
-}
-
-/* Static link buttons that don't resize with zoom */
-a.btn, button.btn, .link-button {
-    font-size: 16px;
-    padding: 8px 16px;
-    line-height: 1.5;
-    transform: none;
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .link-hover-border {
-    position: relative;
-    overflow: hidden;
-    color: currentColor;
-    text-decoration: none;
-    font-size: 16px;
+	position: relative;
+	overflow: hidden;
+	color: currentColor;
+	text-decoration: none;
 }
 
 .link-hover-border::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background-color: currentColor;
-    transition: width 0.3s ease-in-out;
-    transform: translateX(-50%);
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background-color: currentColor;
+	transition: width 0.3s ease-in-out;
+	transform: translateX(-50%);
 }
 
 .link-hover-border:hover::before {
-    width: 100%;
+	width: 100%;
 }
 
 a {
-    color: #007bff;
-    text-decoration: none;
+	color: #007bff;
+	text-decoration: none;
 }
 
-/* Improve mobile container padding */
-@media (max-width: 640px) {
-    .container {
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-    }
+body {
+	zoom: 80%; 
 }

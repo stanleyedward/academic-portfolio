@@ -23,6 +23,11 @@
 	}
 
 	function updateThemeClassList(theme) {
+		// if (theme === 'dark') {
+		// 	document.body.classList.add('dark');
+		// } else {
+		// 	document.body.classList.remove('dark');
+		// }
         if (theme === 'dark') {
             document.documentElement.classList.add('dark');
         } else {
