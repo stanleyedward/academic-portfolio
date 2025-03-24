@@ -33,12 +33,6 @@
         } else {
             document.documentElement.classList.remove('dark');
         }
-//  Force a small repaint to ensure all elements update
-//       setTimeout(() => {
-//         const refreshEl = document.createElement('div');
-//         document.body.appendChild(refreshEl);
-//         document.body.removeChild(refreshEl);
-//       }, 5);
 	}
 
 	if (typeof window !== 'undefined') {
