@@ -48,7 +48,9 @@
 		</a>
 
 		{#if displayTags}
-			<div class="flex gap-4 w-full md:justify-end justify-start items-center">
+			<div
+				class="flex gap-4 w-full md:justify-end overflow-x-auto md:overflow-visible justify-start items-center"
+			>
 				{#each tags as tag}
 					<button
 						class={`text-lg font-thin cursor-pointer ${
