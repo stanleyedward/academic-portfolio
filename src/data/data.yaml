@@ -157,6 +157,9 @@ sections:
           - icon: "mdi:github"
             text: "Github"
             link: "https://github.com/stanleyedward/vision_transformer_pytorch"
+          - icon: "system-uicons:write"
+            link: "https://medium.com/data-science-community-srm/transformers-and-the-decoding-and-synthesis-of-reality-20b94fa7912d"
+            text: "Medium"
         image: "vit.png"
         # duration: "Aug 2023 – Nov 2023"
         tags: ["All", "Machine Learning", "Computer Vision"]
