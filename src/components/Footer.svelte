@@ -22,9 +22,9 @@
 			>
 				<Icon icon="akar-icons:github-fill" class="" />
 			</a>
-			{#if darkMode}
+			<!-- {#if darkMode}
 				<Toggle />
-			{/if}
+			{/if} -->
 		</div>
 	</div>
 </footer>

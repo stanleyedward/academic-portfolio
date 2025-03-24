@@ -21,12 +21,16 @@
 		{/if}
 
 		{#if sidebar?.details}
-			{#each sidebar.details as item}
-				<p class="flex items-center gap-2">
-					<Icon icon={item.icon} class="text-xl text-red-600" />
-					{item.text}
-				</p>
-			{/each}
+  			{#each sidebar.details as item}
+    			<p class="flex items-center gap-2">
+      			<Icon icon={item.icon} class="text-xl text-red-600" />
+      			{#if item.link}
+        			<a href={item.link} target="_blank" rel="noopener noreferrer" class="hover:underline">{item.text}</a>
+      			{:else}
+        			{item.text}
+      			{/if}
+    		</p>
+  			{/each}
 		{/if}
 
 		<ul class="flex flex-col gap-4 mt-5 w-full">

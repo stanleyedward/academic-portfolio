@@ -6,12 +6,18 @@ config:
 info:
   sidebar:
     description:
-      - 'Bachelor of Technology in Computer Science'
+      - 'i like making things run faster'
     details:
-      - icon: 'mdi:location'
-        text: 'Chennai, India'
-      - icon: 'mdi:university'
-        text: 'SRMIST'
+      # - icon: 'mdi:location'
+      #   text: 'Chennai, India'
+      - icon: 'mdi:email'
+        text: 'stanleyedwardy@gmail.com'
+        link: 'mailto:stanleyedwardy@gmail.com'
+      - icon: 'mdi:github'
+        text: 'github.com/stanleyedward'
+        link: 'https://github.com/stanleyedward'
+      # - icon: 'mdi:university'
+      #   text: 'SRMIST'
   about:
     description:
       - "3rd yr UG student doing computer science, I like researching **3D vision** and **High Performance Computing**."
@@ -19,38 +25,48 @@ info:
       - icon: "mdi:document"
         text: "Resume"
         link: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
-      # - icon: "system-uicons:write"
-      #   link: "https://medium.com/@stanleyedward"
-      #   text: "Medium Articles"
-      # - icon: "mdi:web"
-      #   link: "https://stanleyedward.me"
-      #   text: "Web Portfolio"
+      - icon: "system-uicons:write"
+        link: "https://medium.com/@stanleyedward"
+        text: "Medium"
+      - icon: "mdi:web"
+        link: "https://stanleyedward.github.io"
+        text: "Portfolio"
   name: "Stanley Edward"
   image: "me.jpeg"
   location: "Chennai, India"
   university: "SRM Institute of Science & Technology"
   socials:
-    Email:
-      icon: "ic:baseline-email"
-      link: "mailto:stanleyedward9715@gmail.com"
+    Resume:
+      icon: "mdi:document"
+      link: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
+    # Email:
+    #   icon: "ic:baseline-email"
+    #   link: "mailto:stanleyedwardy@gmail.com"
     # Twitter:
     #   icon: "mdi:twitter"
     #   link: "https://twitter.com/@wishee0"
     LinkedIn:
       icon: "mdi:linkedin"
       link: "https://www.linkedin.com/in/stanley-edward"
-    Github:
-      icon: "mdi:github"
-      link: "https://github.com/stanleyedward"
+    # Github:
+    #   icon: "mdi:github"
+    #   link: "https://github.com/stanleyedward"
   footer: "This is a fork of my friend's [website](https://github.com/vaishnav-mk/academic-portfolio)!"
   navbar:
     title: "Stanley Edward"
     separator: "/"
     links:
+# if url starts with # it will scroll to the section with the id
+      - title: "Experience"
+        url: "#experience"
+      - title: "Projects"
+        url: "#projects"
+      - title: "Education"
+        url: "#education"
       # - title: "Portfolio"
-      #   url: "https://stanleyedward.me"
-      - title: "Resume"
-        url: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
+      #   url: "https://stanleyedward.github.io"
+      # - title: "resume"
+      #   url: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
 sections:
   - title: "Experience"
     data:
@@ -180,7 +196,7 @@ sections:
     data:
       - title: "SRMIST, KTR"
         designation: "B.Tech, Computer Science Engineering"
-        location: "Overall GPA: 9.08/10.00"
+        location: "Overall GPA: 9.08 / 10.00"
         duration: "Jun 2022 - May 2026"
         description:
           - "  - **Relevant Coursework:** Calculus and Linear Algebra — Advance Calculus and Complex Analysis — Probability and Statistics — Digital Image Processing — DSA — Design and Analysis of Algorithms — Advanved OOP — Operating Sytems — Database Management Systems — Artificial Neural Networks — Machine Learning for Data Analysis"
