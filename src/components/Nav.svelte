@@ -6,7 +6,7 @@
     const img_url = `/images/${icon || defaultAsset}`;
 </script>
 
-<!-- <nav
+<nav
     class="bg-zinc-100 p-6 z-10 border-b dark:bg-[#1c1e20] dark:border-neutral-700 dark:text-zinc-300"
 >
     <div class="container mx-auto max-w-7xl flex justify-between gap-10">
@@ -33,9 +33,9 @@
             {/if}
         </div>
     </div>
-</nav> -->
+</nav>
 
-<nav class="bg-zinc-100 p-4 md:p-6 z-10 border-b dark:bg-[#1c1e20] dark:border-neutral-700 dark:text-zinc-300 w-full sticky top-0">
+<!-- <nav class="bg-zinc-100 p-4 md:p-6 z-10 border-b dark:bg-[#1c1e20] dark:border-neutral-700 dark:text-zinc-300 w-full sticky top-0">
   <div class="container mx-auto flex justify-between items-center flex-wrap">
     <div class="flex items-center gap-2 md:gap-4">
       {#if icon}
@@ -61,4 +61,4 @@
       {/if}
     </div>
   </div>
-</nav>
+</nav> -->

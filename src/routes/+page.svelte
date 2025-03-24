@@ -14,10 +14,10 @@
 	const { darkMode, maxDisplay, addAllTag, defaultAsset } = config;
 </script>
 
-<!-- <div class="dark:bg-zinc-900 dark:text-white"> -->
+<div class="dark:bg-zinc-900 dark:text-white">
 
-<div class="dark:bg-zinc-900 dark:text-white min-h-screen overflow-x-hidden">
-	{#if NavData}
+<div class="dark:bg-zinc-900 dark:text-white min-h-screen overflow-x-hidden"> -->
+f NavData}
 		<Nav {NavData} {darkMode}/>
 	{/if}
 	<div class="flex flex-col md:flex-row max-w-7xl md:mx-auto md:gap-4 md:m-4">
