@@ -4,23 +4,28 @@
 
 html {
     font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    font-size: calc(0.7rem + 0.5vw); /* Scales with viewport width */
 }
 
-/* Mobile responsiveness fixes */
+/* Mobile responsiveness fixes - safer approach */
 html, body {
     overflow-x: hidden;
     position: relative;
     width: 100%;
-    zoom: 88%;
+}
+
+/* Scale content instead of using zoom (which can break in production) */
+body {
+    transform: scale(0.88);
+    transform-origin: top left;
+    width: 114%; /* Compensate for scale */
 }
 
 /* Make section images smaller on mobile */
 @media (max-width: 767px) {
     /* Make profile images smaller on mobile */
     .rounded-full {
-        max-width: 120px !important;
-        max-height: 120px !important;
+        max-width: 120px;
+        max-height: 120px;
     }
     
     /* Ensure all images are responsive on mobile */
@@ -34,16 +39,16 @@ html, body {
     [id="experience"] img,
     [id="projects"] img, 
     [id="education"] img {
-        max-width: 200px !important;
-        height: auto !important;
+        max-width: 200px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
     
     /* Target any flex container that might be making images large */
     .flex img, .grid img {
-        max-width: 150px !important;
-        height: auto !important;
+        max-width: 150px;
+        height: auto;
     }
 }
 
@@ -54,10 +59,10 @@ html, body {
 
 /* Static link buttons that don't resize with zoom */
 a.btn, button.btn, .link-button {
-    font-size: 16px !important; /* Fixed font size */
-    padding: 8px 16px !important; /* Fixed padding */
-    line-height: 1.5 !important; /* Fixed line height */
-    transform: none !important; /* Prevent scaling */
+    font-size: 16px;
+    padding: 8px 16px;
+    line-height: 1.5;
+    transform: none;
 }
 
 .link-hover-border {
@@ -65,7 +70,7 @@ a.btn, button.btn, .link-button {
     overflow: hidden;
     color: currentColor;
     text-decoration: none;
-    font-size: 16px; /* Fixed font size for link buttons */
+    font-size: 16px;
 }
 
 .link-hover-border::before {
