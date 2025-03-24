@@ -13,12 +13,12 @@
 	class="md:w-1/5 md:h-full w-full md:sticky md:top-0 md:min-h-screen p-5 hidden md:block dark:text-zinc-300"
 >
 	<div class="flex flex-col items-start">
-		<!-- <img 
+		<img 
 			src={img_url} 
 			alt={data?.name} 
 			class="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-5 object-cover" 
-		/> -->
-		<img src={img_url} alt={data?.name} class="w-48 h-48 rounded-full mx-auto mb-5" />
+		/>
+		<!-- <img src={img_url} alt={data?.name} class="w-48 h-48 rounded-full mx-auto mb-5" /> -->
 		<h1 class="text-xl font-bold">{data?.name}</h1>
 
 		{#if sidebar?.description}
