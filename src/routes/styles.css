@@ -11,14 +11,13 @@ html, body {
     overflow-x: hidden;
     position: relative;
     width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Scale content instead of using zoom (which can break in production) */
-body {
-    transform: scale(0.88);
-    transform-origin: top left;
-    width: 114%; /* Compensate for scale */
-}
+
 
 /* Make section images smaller on mobile */
 @media (max-width: 767px) {
@@ -55,6 +54,16 @@ body {
 /* Ensure dark mode applies properly */
 .dark * {
     color-scheme: dark;
+}
+
+.dark:bg-zinc-900 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
 }
 
 /* Static link buttons that don't resize with zoom */
