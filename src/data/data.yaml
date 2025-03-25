@@ -123,10 +123,10 @@ sections:
         image: "lego_16_epoch_400.gif"
         tags: ["All", "Machine Learning", "Computer Graphics"]
         # duration: "Mar 2024 - Apr 2024"
-      - title: "Recursive Ray-Tracer"
+      - title: "Recursive Ray-Tracing Engine"
         description:
-          - "Developed a recursive ray tracing algorithm to render 7 diverse scenes with **photo-realistic lighting and shading effects**."
-          - "Leveraged the GLM library for efficient vector and matrix computations, optimizing performance and readability."
+          - "Leveraged Phong Illumination along with reflection and shadows to accurately simulate light physics."
+          - "Implemented efficient ray-geometry intersection algorithms for 3D primitives at arbitary orientations."
         links:
           - icon: "mdi:github"
             text: "Github"
