@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex flex-col justify-between dark:text-zinc-300">
-	<h1 class="text-4xl font-bold text-start">About Me</h1>
+	<h1 class="text-4xl font-bold text-start">About me</h1>
 	<div class="border-t-2 w-full mt-2 dark:border-neutral-700"></div>
 
 	<div class="mt-5 flex flex-wrap flex-col gap-4">

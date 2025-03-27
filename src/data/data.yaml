@@ -20,7 +20,7 @@ info:
       #   text: 'SRMIST'
   about:
     description:
-      - "i like researching **3d scene representations**! and playing the bass sometimes."
+      - "I like researching **3d scene representations**! and playing the bass sometimes."
     links:
       - icon: "mdi:document"
         text: "Resume"
@@ -68,36 +68,6 @@ info:
       # - title: "resume"
       #   url: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
 sections:
-  - title: "Experience"
-    data:
-      - title: "Next Tech Lab"
-        designation: "Member - McCarthy Lab"
-        location: "Chennai, IN"
-        duration: "Oct 2023 - Present"
-        description:
-          - "  - Advanced a suite of deep learning projects, sharpening expertise in **3D/computer vision, and graphics domains**."
-          - "  - Engineered and trained 15+ models with PyTorch Lightning and Weights & Biases, streamlining experiment tracking and boosting reproducibility."
-        image: "ntl.png"
-        # links:
-        #   - link: "https://dream-lab.in/hybrid-clouds-quantum"
-        #     text: "DREAM:lab"
-        #   - link: "https://doi.org/10.1109/eScience55777.2022.00057"
-        #     text: "XFaaS Paper [eScience 2022, CCGRID 2023]"
-        tags: ["All", "Machine Learning"]
-      - title: "Data Science Community SRM"
-        designation: "Research Director"
-        location: "Chennai, IN"
-        duration: "Jul 2024 - Present"
-        description:
-          - "Co-led with 2 research supervisors to guide and mentor members on projects and initiatives."
-          - "Directed a project blocking 96% of explicit content to enhance the security of children in online environments."
-          - "Architected a queue-based parallel computing framework, accelerating machine learning processing by 3x across diverse content channels, including text, image, speech, and video."
-        # links:
-        #   - icon: "mdi:github"
-        #     text: "Github Link"
-        #     link: "https://github.com/vaishnav-mk/quantum-teleportation"
-        image: "dsc_purple.png"
-        tags: ["All", "Machine Learning"]
   - title: "Projects"
     data:
       - title: "High Performance Neural Nets"
@@ -179,22 +149,36 @@ sections:
   #           link: "https://nexttechlab.club"
   #       image: "ntl.png"
   #       tags: ["All", "Machine Learning"]
-  #     - title: "Data Science Community"
-  #       designation: "Research Supervisor"
-  #       location: "SRM, Chennai"
-  #       duration: "December 2022 - Present"
-  #       description:
-  #         - "Managed and guided web development initiatives, creating an efficient [URL shortener](https://example.com) using **Next.js, MongoDB, and Redis** for optimized caching."
-  #         - "Achieved a substantial *170% reduction* in load time for the [Club’s website](https://dscommunity.in), optimizing it from **18.7 seconds** to approximately **1.5 seconds**."
-  #         - "Authored diverse [Medium articles](https://medium.com/data-science-community-srm) for the Data Science Medium Journal, contributing to the club’s knowledge-sharing endeavors and reaching an audience of over **100,000+**."
-  #         - "Mentored peers and conducted weekly research paper reviews, staying abreast of advancements in *AI* and *Quantum Computing*."
-  #         - "Offered mentorship to a cohort of **300+ participants** throughout the Data Science Hackathon."
-  #       links:
-  #         - icon: "mdi:web"
-  #           text: "Website"
-  #           link: "https://dscommunity.in"
-  #       image: "dsc_purple.png"
-  #       tags: ["All", "Web Development"]
+  - title: "Experience"
+    data:
+      - title: "Next Tech Lab"
+        designation: "Member - McCarthy Lab"
+        location: "Chennai, IN"
+        duration: "Oct 2023 - Present"
+        description:
+          - "  - Advanced a suite of deep learning projects, sharpening expertise in **3D/computer vision, and graphics domains**."
+          - "  - Engineered and trained 15+ models with PyTorch Lightning and Weights & Biases, streamlining experiment tracking and boosting reproducibility."
+        image: "ntl.png"
+        # links:
+        #   - link: "https://dream-lab.in/hybrid-clouds-quantum"
+        #     text: "DREAM:lab"
+        #   - link: "https://doi.org/10.1109/eScience55777.2022.00057"
+        #     text: "XFaaS Paper [eScience 2022, CCGRID 2023]"
+        tags: ["All", "Machine Learning"]
+      - title: "Data Science Community SRM"
+        designation: "Research Director"
+        location: "Chennai, IN"
+        duration: "Jul 2024 - Present"
+        description:
+          - "Co-led with 2 research supervisors to guide and mentor members on projects and initiatives."
+          - "Directed a project blocking 96% of explicit content to enhance the security of children in online environments."
+          - "Architected a queue-based parallel computing framework, accelerating machine learning processing by 3x across diverse content channels, including text, image, speech, and video."
+        # links:
+        #   - icon: "mdi:github"
+        #     text: "Github Link"
+        #     link: "https://github.com/vaishnav-mk/quantum-teleportation"
+        image: "dsc_purple.png"
+        tags: ["All", "Machine Learning"]
   - title: "Education"
     data:
       - title: "SRMIST, KTR"
