@@ -6,7 +6,7 @@ config:
 info:
   sidebar:
     description:
-      - 'i like making things run faster'
+      - 'i also like making things run faster'
     details:
       # - icon: 'mdi:location'
       #   text: 'Chennai, India'
@@ -20,7 +20,7 @@ info:
       #   text: 'SRMIST'
   about:
     description:
-      - "3rd yr UG student doing computer science, I like researching **3D vision** and **High Performance Computing**."
+      - "i like researching **3d scene representations**! and playing the bass sometimes."
     links:
       - icon: "mdi:document"
         text: "Resume"
