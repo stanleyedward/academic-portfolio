@@ -49,7 +49,7 @@
 	tabindex="0"
 >
 	<div class="flex md:flex-row flex-col md:items-start items-center p-4 gap-4">
-		<div class="md:w-1/4 w-2/3 rounded-lg">
+		<div class="md:w-1/4 w-2/5 rounded-lg">
 			<img src={img_url} alt="Experience Logo" class="rounded-lg" />
 		</div>
 		<div class="md:w-3/4 flex flex-col">
