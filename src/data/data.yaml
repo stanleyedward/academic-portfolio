@@ -51,7 +51,7 @@ info:
     # Github:
     #   icon: "mdi:github"
     #   link: "https://github.com/stanleyedward"
-  footer: "This is a fork of my friend's [website](https://github.com/vaishnav-mk/academic-portfolio)!"
+  footer: "Last Updated April 2025, also this is a fork of my friend's [website](https://github.com/vaishnav-mk/academic-portfolio)!"
   navbar:
     title: "Stanley Edward"
     separator: "/"
@@ -186,7 +186,7 @@ sections:
         location: "Overall GPA: 9.08 / 10.00"
         duration: "Jun 2022 - May 2026"
         description:
-          - "  - **Relevant Coursework:** Calculus and Linear Algebra — Advance Calculus and Complex Analysis — Probability and Statistics — Digital Image Processing — DSA — Design and Analysis of Algorithms — Advanved OOP — Operating Sytems — Database Management Systems — Artificial Neural Networks — Machine Learning for Data Analysis"
+          - "  - **Relevant Coursework:** Calculus and Linear Algebra — Advance Calculus and Complex Analysis — Probability and Statistics — Discrete Mathematics — Digital Image Processing — DSA — Design and Analysis of Algorithms — Advanved OOP — Operating Systems — DB Management Systems — ANNs — ML for Data Analysis — Compiler Design"
         image: "srm3.png"
         # links:
         #   - link: "https://dream-lab.in/hybrid-clouds-quantum"
