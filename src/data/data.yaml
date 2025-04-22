@@ -20,17 +20,17 @@ info:
       #   text: 'SRMIST'
   about:
     description:
-      - "I like researching **3d scene representations**! and playing the bass sometimes."
+      - "I like researching **3d scene representations**! and playing the bass guitar sometimes."
     links:
-      - icon: "mdi:document"
-        text: "Resume"
-        link: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
-      - icon: "system-uicons:write"
-        link: "https://medium.com/@stanleyedward"
-        text: "Medium"
-      - icon: "mdi:web"
-        link: "https://stanleyedward.github.io"
-        text: "Portfolio"
+      # - icon: "mdi:document"
+      #   text: "Resume"
+      #   link: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
+      # - icon: "system-uicons:write"
+      #   link: "https://medium.com/@stanleyedward"
+      #   text: "Medium"
+      # - icon: "mdi:web"
+      #   link: "https://stanleyedward.github.io"
+      #   text: "Portfolio"
   name: "Stanley Edward"
   image: "me.jpeg"
   location: "Chennai, India"
@@ -63,11 +63,30 @@ info:
         url: "#projects"
       - title: "Education"
         url: "#education"
+      - title: "Community"
+        url: "#community"
       # - title: "Portfolio"
       #   url: "https://stanleyedward.github.io"
       # - title: "resume"
       #   url: "https://drive.google.com/file/d/1-MzTj2NXmUtwU4I8IJZnWw2-yehv8-2w/view?usp=sharing"
 sections:
+  - title: "Experience"
+    data:
+      - title: "Carnegie Mellon University"
+        designation: "Research Intern"
+        location: "Pittsburgh, USA"
+        duration: "Apr 2025 - Present"
+        description:
+          - "  - Researching High Performance Computing for 3D Scene Representations to accelerate the **Gaussian Splatting pipeline** using C/CUDA."
+          - "  - Working at the **Human Sensing Lab**, directed by Prof. Fernando De la Torre."
+        image: "cmu.png"
+        links:
+          - link: "http://www.humansensing.cs.cmu.edu/"
+            text: "Human Sensing Lab"
+            icon: "mdi:web"
+        #   - link: "https://doi.org/10.1109/eScience55777.2022.00057"
+        #     text: "XFaaS Paper [eScience 2022, CCGRID 2023]"
+        # tags: ["All", "Machine Learning"]
   - title: "Projects"
     data:
       - title: "High Performance Neural Nets"
@@ -149,10 +168,10 @@ sections:
   #           link: "https://nexttechlab.club"
   #       image: "ntl.png"
   #       tags: ["All", "Machine Learning"]
-  - title: "Experience"
+  - title: "Community"
     data:
       - title: "Next Tech Lab"
-        designation: "Member - McCarthy Lab"
+        designation: "Member | McCarthy Lab"
         location: "Chennai, IN"
         duration: "Oct 2023 - Present"
         description:
